@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  ink-studio:
+    image: nmb/racefi-landing:1.0.0
+    build: .
+    ports:
+      - 3000:80
